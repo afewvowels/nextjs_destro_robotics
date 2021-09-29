@@ -37,7 +37,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #__next {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: 185px auto 4rem;
   justify-items: center;
 }
