@@ -1,0 +1,42 @@
+.headingTitle {
+  font-family: var(--font-family-heading);
+}
+
+.headingIcons {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 0.5fr;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > h6 {
+  font-size: 1rem;
+}
+
+.socialLinkWrapper {
+  display: grid;
+  grid-template-columns: 5rem auto;
+  grid-template-rows: 1;
+  grid-gap: 0.5rem;
+  align-items: center;
+  width: 15rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.socialLinkWrapper > *, .socialLinkWrapper > * > * {
+  cursor: pointer;
+}
