@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className={styles.mainHeadings}>
           Welcome to Destro Robotics
         </h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3dav1JkLB2w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3dav1JkLB2w?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <h2 className={styles.mainHeadings}>Destro Robotics is</h2>
         <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies eros ac venenatis auctor. Nulla velit nibh, sodales gravida imperdiet ut, vestibulum in neque. Phasellus ut gravida nibh. Nullam id finibus ex.</p>
         <p>Phasellus turpis ex, condimentum sed nisl dictum, tempus fringilla nibh. Aliquam erat volutpat. Pellentesque id tellus non nunc volutpat viverra at eget velit. Ut a nunc at orci auctor pulvinar nec id mi.</p>
